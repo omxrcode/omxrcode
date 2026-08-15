@@ -72,10 +72,7 @@
     </g>
 
     <!-- tagline with blinking cursor -->
-    <text x="312" y="230" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="19" fill="#c4ccd6">Creating AI systems that actually matter. Learning fast, building faster.</text>
-    <rect x="824" y="215" width="9" height="18" fill="#1fb35b" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.5;1" dur="1.15s" repeatCount="indefinite"/>
-    </rect>
+    <text x="312" y="230" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="19" fill="#c4ccd6">Creating AI systems that actually matter. Learning fast, building faster. <tspan fill="#1fb35b" font-weight="700">&#x258C;<animate attributeName="fill-opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.15s" repeatCount="indefinite"/></tspan></text>
 
     <!-- chips -->
     <g font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">

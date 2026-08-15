@@ -84,10 +84,9 @@ Ten original builds live on this profile, spanning real-time systems, REST APIs,
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=omxrcode&show_icons=true&hide_border=true&bg_color=0a0e13&title_color=1fb35b&icon_color=EE2A35&text_color=e6edf3&ring_color=009736" alt="GitHub stats" />
-<img height="170" src="https://streak-stats.demolab.com/?user=omxrcode&hide_border=true&background=0a0e13&ring=009736&fire=EE2A35&currStreakLabel=1fb35b&sideLabels=e6edf3&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="Contribution streak" />
+<img height="180" src="https://streak-stats.demolab.com/?user=omxrcode&hide_border=true&background=0a0e13&ring=009736&fire=EE2A35&currStreakLabel=1fb35b&sideLabels=e6edf3&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="" />
 
-<img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omxrcode&layout=compact&hide_border=true&bg_color=0a0e13&title_color=1fb35b&text_color=e6edf3" alt="Top languages" />
+![](assets/langmix.svg)
 
 </div>
 

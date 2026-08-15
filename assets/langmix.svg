@@ -1,0 +1,44 @@
+<svg width="960" height="150" viewBox="0 0 960 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lmbg" x1="0" y1="0" x2="0" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1420"/>
+      <stop offset="1" stop-color="#0a0e13"/>
+    </linearGradient>
+    <linearGradient id="lmsweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="lmframe"><rect width="960" height="150" rx="16"/></clipPath>
+    <clipPath id="barclip"><rect x="40" y="64" width="880" height="26" rx="13"/></clipPath>
+  </defs>
+  <g clip-path="url(#lmframe)">
+    <rect width="960" height="150" fill="url(#lmbg)"/>
+
+    <text x="40" y="42" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#e6edf3">Stack mix</text>
+    <text x="152" y="42" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#8b98a5">by primary language across my ten portfolio repos</text>
+
+    <!-- 6 TypeScript / 3 Python / 1 Java -->
+    <g clip-path="url(#barclip)">
+      <rect x="40" y="64" width="528" height="26" fill="#009736"/>
+      <rect x="568" y="64" width="264" height="26" fill="#EE2A35"/>
+      <rect x="832" y="64" width="88" height="26" fill="#e9edf2"/>
+      <rect x="-160" y="62" width="180" height="30" fill="url(#lmsweep)" opacity="0.5">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 1200 0" dur="5.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <rect x="40" y="64" width="880" height="26" rx="13" fill="none" stroke="#1c2530" stroke-width="1.4"/>
+
+    <g font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15">
+      <circle cx="48" cy="122" r="6" fill="#009736"/>
+      <text x="62" y="127" fill="#e6edf3">TypeScript <tspan fill="#8b98a5">— 6 repos</tspan></text>
+      <circle cx="248" cy="122" r="6" fill="#EE2A35"/>
+      <text x="262" y="127" fill="#e6edf3">Python <tspan fill="#8b98a5">— 3 repos</tspan></text>
+      <circle cx="418" cy="122" r="6" fill="#e9edf2"/>
+      <text x="432" y="127" fill="#e6edf3">Java <tspan fill="#8b98a5">— 1 repo</tspan></text>
+      <text x="920" y="127" text-anchor="end" fill="#8b98a5" font-size="13">plus SQL, WebSockets and REST throughout</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="959" height="149" rx="16" fill="none" stroke="#1c2530" stroke-width="1"/>
+  </g>
+</svg>
