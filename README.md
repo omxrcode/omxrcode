@@ -27,6 +27,18 @@ Ten original builds live on this profile, spanning real-time systems, REST APIs,
 
 ![](assets/divider.svg)
 
+### Certifications
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Rice%20ELITE%20Tech%202026-Deep%20Learning%3A%20AI%20for%20Smart%20Cities-0a0e13?style=for-the-badge&labelColor=009736" alt="Rice ELITE Tech 2026 — RCEL003 Deep Learning: Deploying AI for Smart Cities and the Human Environment" /> <img src="https://img.shields.io/badge/Rice%20ELITE%20Tech%202026-C%2B%2B%20for%20Human%20Spaceflight-0a0e13?style=for-the-badge&labelColor=EE2A35" alt="Rice ELITE Tech 2026 — RCEL008 C++ for Human Spaceflight Engineering" />
+
+<sub>Rice Center for Engineering Leadership · RCEL003 & RCEL008 · July 2026</sub>
+
+</div>
+
+![](assets/divider.svg)
+
 ### Featured builds
 
 <table align="center">
