@@ -1,0 +1,98 @@
+<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGlow" x1="0" y1="0" x2="960" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1420"/>
+      <stop offset="0.55" stop-color="#0a0e13"/>
+      <stop offset="1" stop-color="#0c1117"/>
+    </linearGradient>
+    <linearGradient id="triGrad" x1="0" y1="0" x2="260" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EE2A35"/>
+      <stop offset="1" stop-color="#c81f2c"/>
+    </linearGradient>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="kufFade" x1="960" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="kufiya" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M0 8 L8 0 M8 16 L16 8" stroke="#ffffff" stroke-width="1.6" stroke-linecap="square"/>
+      <path d="M0 8 L8 16 M8 0 L16 8" stroke="#ffffff" stroke-width="0.7" stroke-linecap="square"/>
+    </pattern>
+    <mask id="kufMask">
+      <rect x="520" y="0" width="440" height="320" fill="url(#kufFade)"/>
+    </mask>
+    <clipPath id="frame"><rect x="0" y="0" width="960" height="320" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="960" height="320" fill="url(#bgGlow)"/>
+
+    <!-- kufiya lattice, breathing -->
+    <g mask="url(#kufMask)">
+      <rect x="520" y="0" width="440" height="320" fill="url(#kufiya)" opacity="0.07">
+        <animate attributeName="opacity" values="0.05;0.11;0.05" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- echo triangles on the right for balance -->
+    <path d="M986 30 L790 160 L986 290" stroke="#009736" stroke-opacity="0.16" stroke-width="2" fill="none"/>
+    <path d="M986 66 L836 160 L986 254" stroke="#EE2A35" stroke-opacity="0.10" stroke-width="2" fill="none"/>
+
+    <!-- flag triangle at the hoist, gentle drift -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 10 0; 0 0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+      <path d="M0 0 L232 160 L0 320 Z" fill="url(#triGrad)"/>
+      <path d="M0 22 L204 160 L0 298" stroke="#ffffff" stroke-opacity="0.85" stroke-width="2" fill="none"/>
+      <path d="M0 -8 L268 160 L0 328" stroke="#EE2A35" stroke-opacity="0.28" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- light sweep -->
+    <rect x="-220" y="-40" width="130" height="420" fill="url(#sweepGrad)" opacity="0.06" transform="skewX(-18)">
+      <animateTransform attributeName="transform" type="translate" values="-200 0; 1300 0" dur="7.5s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+
+    <!-- greeting -->
+    <text x="312" y="88" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="19" fill="#1fb35b" letter-spacing="1">&#x623;&#x647;&#x644;&#x627;&#x64B; &#x648;&#x633;&#x647;&#x644;&#x627;&#x64B; &#8212; welcome</text>
+
+    <!-- name -->
+    <text x="310" y="150" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="#f5f7fa">Omar Musleh</text>
+
+    <!-- handle + small flag glyph -->
+    <g>
+      <rect x="314" y="172" width="34" height="22" rx="4" fill="#10151c" stroke="#242e3a" stroke-width="1"/>
+      <rect x="314" y="172" width="34" height="7.3" rx="0" fill="#0c0f13"/>
+      <rect x="314" y="179.3" width="34" height="7.3" fill="#f5f5f5"/>
+      <rect x="314" y="186.6" width="34" height="7.4" fill="#009736"/>
+      <path d="M314 172 L328 183 L314 194 Z" fill="#EE2A35"/>
+      <text x="360" y="189" font-family="Consolas, Menlo, monospace" font-size="21" fill="#EE2A35">@omxrcode</text>
+    </g>
+
+    <!-- tagline with blinking cursor -->
+    <text x="312" y="230" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="19" fill="#c4ccd6">Creating AI systems that actually matter. Learning fast, building faster.</text>
+    <rect x="824" y="215" width="9" height="18" fill="#1fb35b" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.5;1" dur="1.15s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- chips -->
+    <g font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+      <rect x="312" y="256" width="112" height="32" rx="16" fill="none" stroke="#009736" stroke-width="1.6"/>
+      <text x="368" y="277" text-anchor="middle" fill="#1fb35b">CS Student</text>
+      <rect x="436" y="256" width="112" height="32" rx="16" fill="none" stroke="#8b98a5" stroke-width="1.4"/>
+      <text x="492" y="277" text-anchor="middle" fill="#e6edf3">Full-Stack</text>
+      <rect x="560" y="256" width="112" height="32" rx="16" fill="none" stroke="#EE2A35" stroke-width="1.6"/>
+      <text x="616" y="277" text-anchor="middle" fill="#ff5a63">AI Builder</text>
+    </g>
+
+    <!-- bottom tricolor rail -->
+    <rect x="0" y="314" width="320" height="6" fill="#009736"/>
+    <rect x="320" y="314" width="320" height="6" fill="#f5f5f5"/>
+    <rect x="640" y="314" width="320" height="6" fill="#EE2A35"/>
+
+    <!-- frame -->
+    <rect x="0.5" y="0.5" width="959" height="319" rx="18" fill="none" stroke="#1c2530" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="960" height="130" viewBox="0 0 960 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0e13"/>
+      <stop offset="1" stop-color="#0d1420"/>
+    </linearGradient>
+    <clipPath id="fframe"><rect width="960" height="130" rx="16"/></clipPath>
+    <clipPath id="flagClip"><rect x="442" y="26" width="76" height="48" rx="6"/></clipPath>
+  </defs>
+  <g clip-path="url(#fframe)">
+    <rect width="960" height="130" fill="url(#fbg)"/>
+    <rect x="0" y="0" width="320" height="4" fill="#009736"/>
+    <rect x="320" y="0" width="320" height="4" fill="#f5f5f5"/>
+    <rect x="640" y="0" width="320" height="4" fill="#EE2A35"/>
+
+    <!-- flag -->
+    <g clip-path="url(#flagClip)">
+      <rect x="442" y="26" width="76" height="16" fill="#0c0f13"/>
+      <rect x="442" y="42" width="76" height="16" fill="#f5f5f5"/>
+      <rect x="442" y="58" width="76" height="16" fill="#009736"/>
+      <path d="M442 26 L474 50 L442 74 Z" fill="#EE2A35"/>
+    </g>
+    <rect x="442" y="26" width="76" height="48" rx="6" fill="none" stroke="#242e3a" stroke-width="1.4"/>
+
+    <text x="480" y="100" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="16" fill="#8b98a5">&#x634;&#x643;&#x631;&#x627;&#x64B; &#8212; thanks for visiting &#183; <tspan fill="#1fb35b">github.com/omxrcode</tspan></text>
+
+    <rect x="0.5" y="0.5" width="959" height="129" rx="16" fill="none" stroke="#1c2530" stroke-width="1"/>
+  </g>
+</svg>
