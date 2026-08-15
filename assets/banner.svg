@@ -48,6 +48,16 @@
       <path d="M0 0 L232 160 L0 320 Z" fill="url(#triGrad)"/>
       <path d="M0 22 L204 160 L0 298" stroke="#ffffff" stroke-opacity="0.85" stroke-width="2" fill="none"/>
       <path d="M0 -8 L268 160 L0 328" stroke="#EE2A35" stroke-opacity="0.28" stroke-width="2" fill="none"/>
+      <!-- comet tracing the triangle's edge -->
+      <circle r="9" fill="#1fb35b" opacity="0.18">
+        <animateMotion dur="5.5s" repeatCount="indefinite" path="M0,22 L204,160 L0,298 L0,22" begin="-0.22s"/>
+      </circle>
+      <circle r="5.5" fill="#1fb35b" opacity="0.45">
+        <animateMotion dur="5.5s" repeatCount="indefinite" path="M0,22 L204,160 L0,298 L0,22" begin="-0.1s"/>
+      </circle>
+      <circle r="3" fill="#ffffff">
+        <animateMotion dur="5.5s" repeatCount="indefinite" path="M0,22 L204,160 L0,298 L0,22"/>
+      </circle>
     </g>
 
     <!-- light sweep -->
@@ -76,12 +86,12 @@
 
     <!-- chips -->
     <g font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
-      <rect x="312" y="256" width="112" height="32" rx="16" fill="none" stroke="#009736" stroke-width="1.6"/>
-      <text x="368" y="277" text-anchor="middle" fill="#1fb35b">CS Student</text>
-      <rect x="436" y="256" width="112" height="32" rx="16" fill="none" stroke="#8b98a5" stroke-width="1.4"/>
-      <text x="492" y="277" text-anchor="middle" fill="#e6edf3">Full-Stack</text>
-      <rect x="560" y="256" width="112" height="32" rx="16" fill="none" stroke="#EE2A35" stroke-width="1.6"/>
-      <text x="616" y="277" text-anchor="middle" fill="#ff5a63">AI Builder</text>
+      <rect x="312" y="256" width="152" height="32" rx="16" fill="none" stroke="#009736" stroke-width="1.6"/>
+      <text x="388" y="277" text-anchor="middle" fill="#1fb35b">Computer Science</text>
+      <rect x="476" y="256" width="112" height="32" rx="16" fill="none" stroke="#8b98a5" stroke-width="1.4"/>
+      <text x="532" y="277" text-anchor="middle" fill="#e6edf3">Full-Stack</text>
+      <rect x="600" y="256" width="112" height="32" rx="16" fill="none" stroke="#EE2A35" stroke-width="1.6"/>
+      <text x="656" y="277" text-anchor="middle" fill="#ff5a63">Applied AI</text>
     </g>
 
     <!-- bottom tricolor rail -->
